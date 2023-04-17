@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:web_rodrigobak/ui/shared/customFlatButton_app.dart';
 
-class Page404 extends StatelessWidget {
-  const Page404({super.key});
+class View404 extends StatelessWidget {
+  const View404({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
+    return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -28,7 +27,6 @@ class Page404 extends StatelessWidget {
             )
           ],
         ),
-      ),
-    );
+      );
   }
 }
