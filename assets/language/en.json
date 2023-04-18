@@ -1,0 +1,13 @@
+{
+    "home": "Home",
+    "selec_language": "Selec lenguage",
+    "titleApp": "Demonstration Application GPT-3",
+    "subtitle": "Developed with Flutter, for Android and IOS",
+    "start": "Start",
+    "created": "Developed by BakApps",
+    "information": "Information",
+    "back":"Back to chat",
+    "description": "How is it used?\n\nAlthough this AI is capable of answering almost any question, regardless of what we ask it, it is always better to follow a structure where we give it all the data it needs.\n For example, if we want it to generate a text or an image, the ideal is that in the input command we specify the theme, the length we want, the writing style if we want it to resemble an author or be from a default shape and even a specific tone.\n As an example, it is not the same to put:\n'Write a summary of Don Quixote', que\n'Write a 500-word summary of Don Quixote in tacky Spanish with a funny tone.'",
+    "selection":"Selection lenguage"
+    
+}

@@ -6,7 +6,6 @@ import 'package:web_rodrigobak/ui/shared/customFlatButton_app.dart';
 class CustomAppMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
     //Condicion que me permite pasar de WEB a MOBILE, determinadno el ancho
     return LayoutBuilder(
       builder: (_, constraints) =>
