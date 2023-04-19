@@ -13,9 +13,11 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
   Map<String, Map<String, String>> _languages = await dep.init();
-  runApp(MyApp(
-    languages: _languages,
-  ));
+  runApp(
+    MyApp(
+      languages: _languages,
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

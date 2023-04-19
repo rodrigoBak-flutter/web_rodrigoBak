@@ -7,6 +7,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 ///
 
 import 'package:web_rodrigobak/ui/views/home_view.dart';
+import 'package:web_rodrigobak/ui/views/languages_view.dart';
 import 'package:web_rodrigobak/ui/views/sobreMi_view.dart';
 import 'package:web_rodrigobak/ui/views/view404.dart';
 
@@ -17,6 +18,8 @@ class RouteGenerator {
         return _fadeRoute(HomeView(), '/home');
       case '/sobreMi':
         return _fadeRoute(SobreMiView(), '/sobreMi');
+      case '/language':
+        return _fadeRoute(languagesView(), '/language');
       default:
         return _fadeRoute(View404(), '/404');
     }

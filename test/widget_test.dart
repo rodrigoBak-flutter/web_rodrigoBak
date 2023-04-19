@@ -9,11 +9,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:web_rodrigobak/main.dart';
+import 'package:web_rodrigobak/lang/utils/dep.dart' as dep;
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+    Map<String, Map<String, String>> _languages = await dep.init();
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+    await tester.pumpWidget(MyApp(
+      languages: _languages,
+    ));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

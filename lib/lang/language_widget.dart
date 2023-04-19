@@ -32,11 +32,12 @@ class LanguageWidget extends StatelessWidget {
             boxShadow: [
               BoxShadow(
                 color: Colors.grey[200]!,
-                blurRadius: 5,
+                blurRadius: 3,
                 spreadRadius: 1,
               ),
             ]),
-        child: Stack(children: [
+        child:
+            Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
           Center(
             child: Column(
               children: [
@@ -51,16 +52,10 @@ class LanguageWidget extends StatelessWidget {
             ),
           ),
           localizationController.selectedIndex == index
-              ? const Positioned(
-                  top: 0,
-                  left: 0,
-                  bottom: 0,
-                  right: 0,
-                  child: Icon(
-                    Icons.check_circle,
-                    color: Colors.green,
-                    size: 20,
-                  ),
+              ? const Icon(
+                  Icons.check_circle,
+                  color: Colors.white,
+                  size: 20,
                 )
               : const SizedBox()
         ]),
