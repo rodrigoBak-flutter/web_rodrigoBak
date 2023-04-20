@@ -33,7 +33,7 @@ class CustomAppMenu extends StatelessWidget {
             CustomFlatButton(
               onPressed: () =>
                   locator<NavigationService>().navigateTo('/language'),
-              text: 'Seleccionar idioma',
+              text: 'selection'.tr,
               color: Colors.black,
             ),
           ],

@@ -1,12 +1,5 @@
 {
     "home": "Inicio",
     "about": "Sobre mi",
-    "titleApp": "Demostracion Aplicacion GPT-3",
-    "subtitle": "Desarrollada con Flutter, para Android e IOS",
-    "start": "Comenzar",
-    "created": "Desarrollado por BakApps",
-    "information": "Informacion",
-    "back": "Volver al chat",
-    "description": "¿Cómo se usa?\n\nAunque esta IA es capaz de responder a casi cualquier pregunta, independientemente de lo que le pidamos, siempre es mejor seguir una estructura en la que le damos todos los datos que necesita.\n Por ejemplo, si queremos que genere un texto o una imagen lo ideal es que en el comando de entrada le especifiquemos el tema, la longitud que deseamos, el estilo de escritura si es que queremos que se parezca a algún autor o que sea de una forma predeterminada e incluso un tono concreto.\n Como ejemplo, no es lo mismo poner:\n'Escribe un resumen de El Quijote', que\n'Escribe un resumen de El Quijote de 500 palabras en un español vulgar con un tono gracioso.'",
-    "selection":"Selecciona lenguaje"
+    "selection": "Selecciona idioma"
 }
